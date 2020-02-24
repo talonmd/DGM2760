@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url(../images/header.jpg);
+    height: 300px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-shadow: 0 0 5px white;
+    font-size: 4rem;
+    padding-left: 1%;
+    margin: 0;
+    color: #2C2828;
+}
+
+header h2 {
+    text-shadow: 0 0 5px white;
+    margin: 0;
+    font-size: 1.74rem;
+    padding-left: 3%;
+    color: #2C2828;
+}
+
+main h1, main h2 {
+    color: #2C2828;
+}
+
+ul {
+    list-style-image: url(../images/leaf.jpg);
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #997867;
+    text-align: center;
+    height: 40px;
+}
+
+footer p {
+    padding: 8px;
+}

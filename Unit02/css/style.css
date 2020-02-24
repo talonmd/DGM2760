@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url(/images/inspectorclouseau.jpg);
+    height: 300px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-shadow: 0 0 5px black;
+    font-size: 4rem;
+    padding-left: 1%;
+    margin: 0;
+    color: white;
+}
+
+header h2 {
+    text-shadow: 0 0 5px black;
+    margin: 0;
+    font-size: 1.74rem;
+    padding-left: 3%;
+    color: white;
+}
+
+main h1, main h2 {
+    color: #2C2828;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #927850;
+    text-align: center;
+    height: 40px;
+    color: white;
+}
+
+footer p {
+    padding: 8px;
+}

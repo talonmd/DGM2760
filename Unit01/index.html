@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>01 - Joe's Bed and Breakfast</title>
+</head>
+<body>
+   <header>
+        <h1 id="companyName"></h1>
+        <h2></h2>
+   </header>
+   <main>
+       <h1>Welcome to Joe's Bed and Breakfast</h1>
+       <h2>Skills I Demonstrated Creating This Site:</h2>
+       <ul>
+           <li>Build a simple webpage with a header, main, and footer</li>
+           <li>Find and correctly resize an image to be loaded into the header using CSS</li>
+           <li>Use JavaScript to insert text into an HTML element</li>
+           <li>Use JavaScript to insert the current date into the webpage</li>
+           <li>Style the page using CSS</li>
+           <li>Pushed the code to a GitHub repository</li>
+           <li>Deployed the webpage using Netlify</li>
+       </ul>
+       <h2>
+           Today is 
+           <script>
+               let theDate = new Date()
+               document.write(theDate.toLocaleDateString())
+           </script>
+
+       </h2>
+
+       <p id="greeting"></p>
+   </main>
+   <footer>
+       <p>Assignment for DGM2760 by Talon Durrant</p>
+   </footer>
+   <script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>
