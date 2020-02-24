@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url(../images/guessing-game-header.jpg);
+    height: 300px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-shadow: 0 0 5px black;
+    font-size: 4rem;
+    padding-left: 1%;
+    margin: 0;
+    color: white;
+}
+
+header h2 {
+    text-shadow: 0 0 5px black;
+    margin: 0;
+    font-size: 1.74rem;
+    padding-left: 3%;
+    color: white;
+}
+
+main h1, main h2 {
+    color: #2C2828;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+div.game {
+    display: flex;
+    max-height: 421px;
+}
+
+.play {
+display: flex;
+width: 25%;
+flex-direction: column;
+}
+
+.trys {
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+}
+
+.feedback {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+}
+
+.award {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+button {
+    width: 75%;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    height: 2rem;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;   
+}
+
+#guess {
+    width: 74%;
+    border: 1px solid black;
+    height: 2rem;
+}
+
+footer {
+    background-color: #302f2d;
+    text-align: center;
+    height: 40px;
+    color: white;
+}
+
+footer p {
+    padding: 8px;
+}

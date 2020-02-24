@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>03 - Guessing Game</title>
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+      <h2></h2>
+    </header>
+    <main>
+      <h1>Hi/Lo Guessing Game</h1>
+      <h2>What I Learned:</h2>
+      <ul>
+        <li>Implement functions</li>
+        <li>Implement a multi level if-then-else</li>
+        <li>Use innerText to provide user feedback</li>
+        <li>Implement a switch statement</li>
+        <li>Dynamically load a graph</li>
+        <li>Create and append an image element</li>
+      </ul>
+
+      <h2>Instructions</h2>
+      <p>
+        In this game you try to guess a random number between 1 and 15 (inclusive) in as few
+        tries as possible. You will be awarded a ribbon for your skills. Good
+        Luck! If you would like to play again, please refresh the page.
+      </p>
+
+      <div class="game">
+      <div class="play">
+        <h2>Play</h2>
+        <input id="guess" type="number" placeholder="number" />
+        <button onclick="evalGuess()">Guess</button>
+      </div>
+      <div class="trys">
+        <h2>Trys</h2>
+        <p></p>
+      </div>
+      <div class="feedback">
+        <h2>Feedback</h2>
+        <p></p>
+      </div>
+      <div class="award">
+        <h2>Award</h2>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <p>Assignment for DGM2760 by Talon Durrant</p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
