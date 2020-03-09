@@ -65,6 +65,10 @@ div#displayResults span {
     color: red;
 }
 
+div#error {
+    color: red;
+}
+
 footer {
     background-color: #939395;
     text-align: center;
