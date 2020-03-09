@@ -79,10 +79,6 @@ document.querySelector('#sortTrees').onclick = () => {
   }
 }
 
-function toLower(item) {
-  return item.toLowerCase();
-}
-
 // make all the trees lowercase
 document.querySelector('#lowerTrees').onclick = () => {
   if (trees.length > 0) {
