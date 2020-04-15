@@ -1,0 +1,28 @@
+{
+    "hotels": [
+    {
+    "name": "Marriott",
+    "rooms": 50,
+    "gym": "Yes",
+    "roomTypes": ["King", "Queen", "Double"],
+    "address": "434 Left Boulevard",
+    "picture": "room1.jpg"
+    },
+    {
+    "name": "Sheraton",
+    "rooms": 30,
+    "gym": "No",
+    "roomTypes": ["King", "Queen"],
+    "address": "343 Right Lane",
+    "picture": "room2.jpg"
+    },
+    {
+    "name": "Hilton",
+    "rooms": 42,
+    "gym": "Yes",
+    "roomTypes": ["King", "Queen", "Accessible"],
+    "address": "868 Middle Avenue",
+    "picture": "room3.jpg"
+    }
+    ]
+}
