@@ -12,10 +12,13 @@ function duplicateMenu() {
     newLink.textContent = menuItem.textContent;
     newLink.setAttribute("href", menuItem.getAttribute("href"));
 
-    document.querySelector("#smallNavArea").appendChild(newList);
     newList.appendChild(newLI);
     newLI.appendChild(newLink);
+
+
+    document.querySelector("#smallNavArea").appendChild(newList);
   });
 }
+
 
 duplicateMenu();
