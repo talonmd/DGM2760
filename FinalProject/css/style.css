@@ -1,0 +1,155 @@
+header {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  color: white;
+  padding-bottom: 25px;
+}
+
+div.game-data {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: "Baloo Bhaina 2", sans-serif;
+  background-color: paleturquoise;
+}
+
+.container {
+  margin: 30px auto;
+  background-color: #ddd;
+  width: 600px;
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 200px);
+}
+
+.winners-message {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  z-index: 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.trophy {
+  height: 150px;
+}
+
+a.next-level {
+  border: none;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border: 2px solid white;
+
+  padding: 20px;
+  margin: 20px;
+  border-radius: 100px;
+  font-family: "Baloo Bhaina 2", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a.next-level:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+
+  box-shadow: 0 0 10px black;
+}
+
+a.next-level:visited,
+a.next-level:active {
+  transform: translateY(2px);
+}
+
+.displayed {
+  display: none;
+}
+
+.clicked {
+  background-color: rgb(24, 24, 24) !important;
+}
+
+.item {
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.item:hover {
+  opacity: 0.95;
+}
+
+.item--1 {
+  background-color: orangered;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.item--2 {
+  background-color: yellowgreen;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.item--3 {
+  background-color: blueviolet;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.item--4 {
+  background-color: palevioletred;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.item--5 {
+  background-color: goldenrod;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.item--6 {
+  background-color: darkslategray;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.item--7 {
+  background-color: teal;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.item--8 {
+  background-color: royalblue;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.item--9 {
+  background-color: crimson;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+footer {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  height: 40px;
+  color: white;
+}
+
+footer p {
+  padding: 8px;
+}
